@@ -1,5 +1,8 @@
 # zipService
 A windows service that zips files individually from a given source folder to a given target folder 
+I did it as a self training to learn about compression with .Net
+This service is very simple, minimal, you might want to use the code as a starter to build something else.
+
 
 v 1.00 : First release
 
@@ -21,5 +24,4 @@ To install the service, search for cmd, right click to execute as administrator 
 ```
 sc.exe create ZipService binPath= "C:\...yourpath..\bin\Release\\zipService.exe"
 ```
-
 
